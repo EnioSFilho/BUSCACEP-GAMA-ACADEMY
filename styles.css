@@ -1,0 +1,29 @@
+body {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.primeira input{
+
+    margin: 5px;
+}
+.segunda input{
+
+    margin: 5px;
+}
+.terceira input{
+
+    margin: 5px;
+}
+.quarta input{
+
+    margin: 5px;
+}

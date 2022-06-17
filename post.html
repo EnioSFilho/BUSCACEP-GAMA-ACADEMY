@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:,">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="container">
+    <div class="primeira">
+        <label for="cadastrar">Cadastrar</label>    
+        <form id="cadastrar" method="post">
+            
+            <input type="text" name="nome" id="nome" placeholder="Nome do Produto">
+            <input type="text" name="descricao" id="descricao" placeholder="Descricao do Produto">
+            <input type="text" name="imagem" id="imagem" placeholder="Imagem do Produto">
+            <input type="number" name="preco" id="preco" placeholder="Preco do Produto">
+           
+            <div>
+            <button type="submit">Cadastrar</button>
+        </div>
+        </form>
+        
+        
+    </div>
+
+    <div class="segunda">
+        <label for="listar">Listar</label>    
+
+        <form id="listar" action="">
+            <input type="text" name="nomeProduto" id="idListar" placeholder="ID do Produto">
+            <input type="text" name="descricaoProduto" id="nomel" placeholder="Nome do Produto">
+            <input type="text" name="imagemProduto" id="descricaol" placeholder="Descricao do Produto">
+            <input type="number" name="precoProduto" id="precol" placeholder="Preco do Produto">
+            
+            <div>
+            <button type="submit">Listar</button>
+        </div>
+            
+        </form>
+       
+    </div>
+
+    <div class="terceira">
+        <label for="apagar">Apagar</label>    
+
+        <form id="apagar" action="">
+            <input type="text" name="nomeProduto" id="ida" placeholder="ID do Produto">
+            <input type="text" name="descricaoProduto"  id="n" placeholder="Nome do Produto">
+            <input type="text" name="imagemProduto" id="d" placeholder="Descricao do Produto">
+            <input type="number" name="precoProduto" id="p" placeholder="Preco do Produto">
+
+            <div>
+            <button type="submit">Apagar</button>
+        </div>
+           
+        </form>
+        
+    </div>
+
+    <div class="quarta">
+        <label for="alterar">Alterar</label>    
+
+        <form id="alterar" action="">
+            <input type="text" name="nomeProduto" id="idu" placeholder="ID do Produto">
+            
+            <input type="text" name="descricaoProduto" id="nomeu" placeholder="Nome do Produto">
+            <input type="text" name="nome" id="linku" placeholder="Link">
+            <input type="text" name="imagemProduto" id="descricaou" placeholder="Descricao do Produto">
+            <input type="number" name="precoProduto" id="precou" placeholder="Preco do Produto">
+           
+            <div>
+            <button type="submit">Alterar</button>
+        </div>
+        </form>
+       
+    </div> 
+
+</section>
+
+
+<script src="praticapost2.js"></script>
+<script src="praticalistar2.js"></script>
+<script src="praticaapagar2.js"></script>
+<script src="praticaalterar2.js"></script>
+
+
+<!-- esses estao funcionando perfeitamente -->
+<!-- <script src="praticapost1.js"></script>
+<script src="praticalistar1.js"></script>
+<script src="praticaapagar1.js"></script>
+<script src="praticaalterar1.js"></script> -->
+   
+
+</body>
+
+</html>
